@@ -1,5 +1,7 @@
 # WaTTermelon (working title)
 
+[![WaTTermelon title screen](docs/screenshot.jpg)](https://adong.github.io/merge-teddy/)
+
 A fruit-merging jar game starring Teddy and Tommy, in the style of 合成大西瓜 (the "make a big watermelon" game). Drop fruit into a glass jar; two of the same that touch squish together into the next one up, all the way to a watermelon. It's built with Claude Code from plain JavaScript and Three.js, in the same style as Metro Surfer and FruiTTy Kids.
 There are no image, model or audio files: the fruit are painted on canvases, the jar and the orchard are drawn in code, the characters come from the shared kit (`kit/`), and every sound is synthesised.
 
