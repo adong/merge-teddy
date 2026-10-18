@@ -120,10 +120,11 @@
           g.scale(pop, pop);
           g.font = `${wd.size}px ${FONT}`;
           g.lineWidth = Math.max(4, wd.size * 0.2);
+          const str = Kit.lang ? Kit.lang.t(wd.str) : wd.str; // NOM!, WHEE!, COMBO ×3 in 中文 too
           g.strokeStyle = '#14121f';
-          g.strokeText(wd.str, 0, 0);
+          g.strokeText(str, 0, 0);
           g.fillStyle = wd.color;
-          g.fillText(wd.str, 0, 0);
+          g.fillText(str, 0, 0);
           g.restore();
         }
         g.globalAlpha = 1;

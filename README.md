@@ -3,6 +3,7 @@
 [![WaTTermelon title screen](docs/screenshot.jpg)](https://adong.github.io/merge-teddy/)
 
 Press **?** any time (or tap the round **?** button on the left edge) to see the keys. The game waits while you look.
+Tap **中文 / EN** under it to switch between English and 中文 (the dashboard and every game remember the choice).
 
 A fruit-merging jar game starring Teddy and Tommy, in the style of 合成大西瓜 (the "make a big watermelon" game). Drop fruit into a glass jar; two of the same that touch squish together into the next one up, all the way to a watermelon. It's built with Claude Code from plain JavaScript and Three.js, in the same style as Metro Surfer and FruiTTy Kids.
 There are no image, model or audio files: the fruit are painted on canvases, the jar and the orchard are drawn in code, the characters come from the shared kit (`kit/`), and every sound is synthesised.
@@ -99,6 +100,7 @@ js/fx.js         juice drops, rings, floating words and confetti on a 2D overlay
 js/hero.js       MT.makeActor: a character beside the jar, with reactions, signature moves and Teddy's ball and hoop; MT.hero is you
 js/buddy.js      the buddy: his visit, gobbling, treat and the jar-shake save
 js/game.js       the scene, the jar, layout (landscape and portrait), input, events, HUD, main loop, window.game
+js/zh.js         中文 for every word the player sees (Kit.lang): page text, toasts, the ? panel, NOM! / WHEE! / COMBO
 tools/check.js   the headless physics and rules check (node)
 kit/             copy of ~/claude-games/kit (Three.js r149, people, roster, portraits, sound, bundler); edit the kit there, not here
 dist/merge-teddy.html  the single-file build
