@@ -9,7 +9,7 @@ Drop and merge fruit, all the way up to a giant watermelon.
 Press **?** any time (or tap the round **?** button on the left edge) to see the keys. The game waits while you look.
 Tap the language button under it (the A文 icon) to switch between English and 中文; the dashboard and every game remember the choice.
 
-A fruit-merging jar game starring Teddy and Tommy, in the style of 合成大西瓜 (the "make a big watermelon" game). Drop fruit into a glass jar; two of the same that touch squish together into the next one up, all the way to a watermelon. It's built with Claude Code from plain JavaScript and Three.js, in the same style as Metro Surfer and FruiTTy Kids.
+A fruit-merging jar game starring Teddy and Tommy, in the style of the Chinese "make a big watermelon" game. Drop fruit into a glass jar; two of the same that touch squish together into the next one up, all the way to a watermelon. It's built with Claude Code from plain JavaScript and Three.js, in the same style as Metro Surfer and FruiTTy Kids.
 There are no image, model or audio files: the fruit are painted on canvases, the jar and the orchard are drawn in code, the characters come from the shared kit (`kit/`), and every sound is synthesised.
 
 The name lives in one place, `js/title.js` (`MT.TITLE`), so it's easy to rename.
