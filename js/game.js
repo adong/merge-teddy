@@ -862,7 +862,7 @@
   function buildLogo() {
     const t = MT.TITLE.toUpperCase(), i = t.indexOf('TT');
     ui.logo.innerHTML = i > 0 ? `<span class="l1">${t.slice(0, i)}<em>T</em><em>T</em>${t.slice(i + 2)}</span>` : `<span class="l1">${t}</span>`;
-    document.title = MT.TITLE;
+    document.title = `${MT.TITLE} · Teddy & Tommy`;
   }
 
   // ---------------------------------------------------------------- input

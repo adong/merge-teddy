@@ -1,6 +1,10 @@
-# WaTTermelon (working title)
+# WaTTermelon
 
 [![WaTTermelon title screen](docs/screenshot.jpg)](https://adong.github.io/merge-teddy/)
+
+Drop and merge fruit, all the way up to a giant watermelon.
+
+**中文：** 合成大西瓜：丢水果、合水果，一路合成大西瓜。
 
 Press **?** any time (or tap the round **?** button on the left edge) to see the keys. The game waits while you look.
 Tap the language button under it (the A文 icon) to switch between English and 中文; the dashboard and every game remember the choice.
